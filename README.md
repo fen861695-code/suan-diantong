@@ -43,6 +43,10 @@
 # 安装依赖
 npm install
 
+# 配置飞书（可选，不配置则飞书推送功能不可用）
+cp .env.example .env
+# 编辑 .env 填入飞书群ID和智能体open_id
+
 # 启动服务
 node server.js
 
@@ -51,6 +55,8 @@ node server.js
 ```
 
 访问 http://localhost:3000
+
+> **安全说明**：`.env` 文件包含飞书群ID等敏感配置，已加入 `.gitignore` 不会提交到Git。请不要将 `.env` 文件分享或上传到公开仓库。
 
 ## 项目结构
 
