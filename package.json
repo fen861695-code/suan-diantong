@@ -1,0 +1,13 @@
+{
+  "name": "suan-diantong",
+  "version": "1.0.0",
+  "description": "算电通 - AI数据中心电力交易智能分析平台",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
